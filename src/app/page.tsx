@@ -23,6 +23,7 @@ export default function Home() {
     setLoading(true)
     const query_ai_use_case = new QueryAIUseCase()
     const response = await query_ai_use_case.getAnswerFromAI(search)
+    console.log(response)
     setReqStatus(response.result)
     if (response.result === Result.ERROR) {
       alert("통신 실패")
