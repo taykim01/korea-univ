@@ -1,0 +1,91 @@
+@import url("../../assets/styles/Global.css");
+
+.search_container {
+  position: relative;
+  border-radius: 50px;
+  width: 100%;
+  background: linear-gradient(135deg, var(--main-50) 0%, var(--main-100) 100%);
+  display: flex;
+  align-items: center;
+  padding: 4px 16px 4px 16px;
+  box-sizing: border-box;
+}
+
+.search_container::after,
+.search_container::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+  position: absolute;
+}
+
+.search_container::before {
+  top: -1px;
+  left: -1px;
+  background: linear-gradient(
+    0deg,
+    var(--main-100) 0%,
+    rgb(255, 255, 255) 100%
+  );
+  z-index: -1;
+}
+
+.search_container::after {
+  bottom: -1px;
+  right: -1px;
+  background: linear-gradient(0deg, var(--main-200) 0%, var(--main-50) 100%);
+  box-shadow: var(--main-200-shade) 3px 3px 5px 0px,
+  var(--main-200-shade) 5px 5px 20px 0px;
+  z-index: -2;
+}
+
+.search_input {
+  padding: 12px;
+  width: 100%;
+  background: linear-gradient(135deg, var(--main-50) 0%, var(--main-100) 120%);
+  border: none;
+  color: var(--main-800);
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 50px;
+  font-family: Pretendard;
+  outline: none;
+  caret-color: var(--main-500);
+}
+
+@font-face {
+  font-family: "Pretendard";
+  src: url("../../assets/fonts/PretendardVariable.woff2");
+}
+
+.search_icon {
+  width: 50px;
+  aspect-ratio: 1;
+  border-left: 2px solid white;
+  border-top: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+  border-radius: 50%;
+  padding-left: 12px;
+  transition: all 0.1s;
+}
+
+.search_icon:hover {
+  border-left: 3px solid white;
+}
+
+.search_icon:active {
+  border-left: 3px solid var(--main-500);
+  fill: var(--main-500);
+  transition: all 0.1s;
+}
+
+.search_icon path {
+  fill: white;
+  transition: all 0.1s;
+}
+
+.search_icon:active path {
+  fill: var(--main-500);
+  transition: all 0.1s;
+}

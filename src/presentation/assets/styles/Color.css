@@ -1,0 +1,155 @@
+:root {
+  --main-900: #1b080a;
+  --main-800: #360f14;
+  --main-700: #50171f;
+  --main-600: #6b1e29;
+  --main-500: #862633;
+  --main-400: #9e515c;
+  --main-300: #b67d85;
+  --main-200: #cfa8ad;
+  --main-200-shade: rgba(207, 168, 173, 0.7);
+  --main-100: #e7d4d6;
+  --main-50: #f3e9eb;
+
+  --sub-900: #272522;
+  --sub-800: #4f4a45;
+  --sub-700: #766f67;
+  --sub-600: #9e948a;
+  --sub-500: #c5b9ac;
+  --sub-400: #d1c7bd;
+  --sub-300: #dcd5cd;
+  --sub-200: #e8e3de;
+  --sub-100: #f3f1ee;
+  --sub-50: #f9f8f7;
+
+  --grey-900: #1a1a1a;
+  --grey-800: #333333;
+  --grey-700: #4d4d4d;
+  --grey-600: #666666;
+  --grey-500: #808080;
+  --grey-400: #999999;
+  --grey-300: #b3b3b3;
+  --grey-200: #cccccc;
+  --grey-100: #e6e6e6;
+  --grey-50: #f0f0f0;
+}
+
+.main-900 {
+  color: var(--main-900);
+}
+
+.main-800 {
+  color: var(--main-800);
+}
+
+.main-700 {
+  color: var(--main-700);
+}
+
+.main-600 {
+  color: var(--main-600);
+}
+
+.main-500 {
+  color: var(--main-500);
+}
+
+.main-400 {
+  color: var(--main-400);
+}
+
+.main-300 {
+  color: var(--main-300);
+}
+
+.main-200 {
+  color: var(--main-200);
+}
+
+.main-100 {
+  color: var(--main-100);
+}
+
+.main-50 {
+  color: var(--main-50);
+}
+
+.sub-900 {
+  color: var(--sub-900);
+}
+
+.sub-800 {
+  color: var(--sub-800);
+}
+
+.sub-700 {
+  color: var(--sub-700);
+}
+
+.sub-600 {
+  color: var(--sub-600);
+}
+
+.sub-500 {
+  color: var(--sub-500);
+}
+
+.sub-400 {
+  color: var(--sub-400);
+}
+
+.sub-300 {
+  color: var(--sub-300);
+}
+
+.sub-200 {
+  color: var(--sub-200);
+}
+
+.sub-100 {
+  color: var(--sub-100);
+}
+
+.sub-50 {
+  color: var(--sub-50);
+}
+
+.grey-900 {
+  color: var(--grey-900);
+}
+
+.grey-800 {
+  color: var(--grey-800);
+}
+
+.grey-700 {
+  color: var(--grey-700);
+}
+
+.grey-600 {
+  color: var(--grey-600);
+}
+
+.grey-500 {
+  color: var(--grey-500);
+}
+
+.grey-400 {
+  color: var(--grey-400);
+}
+
+.grey-300 {
+  color: var(--grey-300);
+}
+
+.grey-200 {
+  color: var(--grey-200);
+}
+
+.grey-100 {
+  color: var(--grey-100);
+}
+
+.grey-50 {
+  color: var(--grey-50);
+}
